@@ -1,0 +1,130 @@
+* {
+  border-style: border-box;
+}
+body{
+  font-family: sans-serif;
+  color: #202020;
+  
+}
+.header{
+  background-color: #f1f1f1;
+  padding: 22px 0; 
+  
+}
+.header-container{
+  /* border: 1px solid red; */
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.logo{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #202020;
+  font-size: 14px; 
+}
+.nav-link{
+  color: #202020;
+  /* font-family: Tahoma; */
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 11px;
+  margin-left: 11px;
+}
+.login{
+  
+  /* font-family: Tahoma; */
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+/*Главная секция */
+.hero{
+  padding-top: 62px;
+  padding-bottom: 71px;
+}
+.hero-container{
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+   align-items: center; 
+
+}
+.hero-image{
+  margin-right: 122px;
+}
+.author{
+  font-size: 24px;
+  font-weight: normal;
+  /* делаем блочными чтобы работал  margin-bottom: 22px*/
+  display: block;
+  margin-bottom: 22px;
+}
+.title{
+  font-size: 54px;
+  font-weight: bold;
+  /* display: block; */
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.subtitle{
+    display: block;
+  font-size: 24px;
+  font-weight: normal;
+line-height: 29px;
+  margin-bottom: 48px;
+}
+.info{
+  /* max-width: 422px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-bottom: 49px;
+}
+.info-text{
+  flex-basis: 45%;
+    font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+.price{
+  display: flex;
+  align-items: center ;
+  margin-bottom: 48px;
+}
+.pricetag{
+  font-size: 55px;
+  font-weight: normal;
+  margin-right: 65px;
+}
+.favorites{
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  /* цвет текста берем от родителя */
+  color:inherit;
+}
+
+.button{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 22px 59px; 
+  border-radius: 5px;
+border: solid 2px transparent;
+}
+.button-primary{ 
+  color: #fff; 
+  background-color: #f89c02;
+  margin-right: 20px;
+  border: solid 2px #f89c02;
+ 
+}
+.button-outline{
+  color: #f89c02; 
+  border: solid 2px #f89c02;
+  text-decoration: none;
+
+} 
